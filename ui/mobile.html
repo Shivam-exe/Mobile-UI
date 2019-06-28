@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>MOBILE UI</title>
+        <link href="css/all.css" type="text/css"  rel="stylesheet">
+        <link href="style.css" type="text/css"  rel="stylesheet">
+        
+    <script src="jquery-3.4.1.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $(".down").click(function(){
+            $(".mid").toggleClass("active");
+        });
+    });
+    </script>
+       
+    </head>
+    <body>
+    <div class="mobile">
+        <div class="top"></div>
+        <div class="mid">
+            <img src="images/bg3.jpg">
+            <h2>12:00 <span>AM</span><br><span> 28 jun 2019</span></h2> 
+            <ul>
+                 <li><i class="fa fa-phone" aria-hidden="true"></i></li>
+                 <li><i class="fa fa-comment" aria-hidden="true"></i></li>
+                 <li><i class="fa fa-home" aria-hidden="true"></i></li>
+                 <li><i class="fa fa-camera" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+        <div class="down"></div>
+    </div>
+
+
+</body>
+</html>
